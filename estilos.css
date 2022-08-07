@@ -7,12 +7,11 @@
     width: 100vw;
     height: 100vh;
 }
-
 .barra-lateral{
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    flex-grow:1;
+    flex-grow:0.1;
 }
 .elemento{
     flex-grow:1;
@@ -28,7 +27,7 @@
 }
 .principal{
     background-color: #022F40;
-    flex-grow:3;
+    flex-grow:1;
 }
 @media (max-width:640px){
     .contenedor{
