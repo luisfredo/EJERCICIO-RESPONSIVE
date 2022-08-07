@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    flex-grow:1;
+}
+.elemento{
+    flex-grow:1;
+}
+.elemento1{
+    background-color: #218380 ;
+}
+.elemento2{
+    background-color: #EF2D56;
+}
+.elemento3{
+    background-color: #26F0F1;
+}
+.principal{
+    background-color: #022F40;
+    flex-grow:3;
+}
+@media (max-width:640px){
+    .contenedor{
+        flex-direction: column-reverse
+    }
+    .barra-lateral{
+        flex-direction: row;
+    }
+
+}
